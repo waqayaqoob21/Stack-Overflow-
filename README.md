@@ -51,7 +51,7 @@ Create a `.env` file at the root:
 ```
 DEBUG=True
 SECRET_KEY=your-secret-key
-DATABASE_URL=sqlite:///db.sqlite3  # Or PostgreSQL URL
+DATABASE_URL=PostgreSQL:///db.sqlite3  # Or PostgreSQL URL
 ALLOWED_HOSTS=127.0.0.1,localhost
 ```
 
@@ -110,6 +110,7 @@ Authorization: Bearer <access_token>
 | POST   | `/api/questions/<id>/vote/` | Vote question |
 | POST   | `/api/answers/<id>/vote/`   | Vote answer |
 | GET    | `/api/notifications/`  | View notifications |
+| PATCH  | `/api/notifications/<id>/read/`  | View notifications |
 
 ---
 
