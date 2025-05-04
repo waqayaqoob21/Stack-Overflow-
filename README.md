@@ -134,20 +134,22 @@ Tests include:
 Click the button above to instantly import and test the full API in Postman — includes auth, questions, answers, voting, and notifications.
 
 
+## 📦 Deployment (Next Step)
+
+render link:
+- 🔵 https://stack-overflow-r98k.onrender.com/api/questions/
+
+---
+
+## 🧪 Video Walkthrough of the Code
+- https://drive.google.com/file/d/1Z5xSH9vcSHIV29HJ9B7w8bU_DLRqCTg3/view
+
+
 ## 🧑‍💻 Contributors
 
 - Waqar Yaqoob
 
 ---
-
-## 📦 Deployment (Next Step)
-
-Project link:
-- 🔵 https://stack-overflow-r98k.onrender.com/api/questions/
-
----
-## 🧪 Video Walkthrough of the Code
-- https://drive.google.com/file/d/1Z5xSH9vcSHIV29HJ9B7w8bU_DLRqCTg3/view
 
 ## 📄 License
 
