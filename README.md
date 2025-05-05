@@ -104,22 +104,18 @@ Authorization: Bearer <access_token>
 | POST   | `/api/register/`                  | Register a user    |
 | POST   | `/api/token/`                     | Get JWT token      |
 | GET    | `/api/profile/`                   | User profile       |
--------------------------------------------------------------------
 | POST   | `/api/questions/`                 | Create Question    |
 | GET    | `/api/questions/`                 | Get questions list |
 | GET    | `/api/questions/?tag=django`      | Search by tag      |
 | GET    | `/api/questions/?search=api`      | Search by title    |
--------------------------------------------------------------------
 | POST   | `/api/answers/`        	     | Create answer      |
 | GET    | `/api/answers/`        	     | Get answers list   |
 | PUT    | `/api/answers/<id>/`        	     | Update answer      |
 | DELETE | `/api/answers/<id>/`              | Update answer      |
 | POST   | `/api/answers/<id>/accept/`       | Accept answer      |
 | POST   | `/api/answers/<id>/vote/`         | Vote answer        |
--------------------------------------------------------------------
 | GET    | `/api/notifications/`  	     | View notifications |
 | PATCH  | `/api/notifications/<id>/read/`   | View notifications |
--------------------------------------------------------------------
 | POST   | `/api/questions/<id>/vote/`       | UpVote answer      |
 | POST   | `/api/questions/<id>/vote/`       | DownVote answer    |
 | DELETE | `/api/questions/<id>/vote/`       | Remove Vote        |
