@@ -123,6 +123,32 @@ Authorization: Bearer <access_token>
 
 ---
 
+
+---
+
+## 📘 API Documentation – Swagger & ReDoc
+
+This project includes **auto-generated interactive API docs** using [`drf-yasg`](https://github.com/axnsan12/drf-yasg).
+
+Once your server is running, you can access the documentation at:
+
+| Type       | URL                          | Description                                 |
+|------------|-------------------------------|---------------------------------------------|
+| **Swagger** | [`/swagger/`](http://localhost:8000/swagger/) | Interactive UI for testing and exploring endpoints |
+| **ReDoc**   | [`/redoc/`](http://localhost:8000/redoc/)     | Clean, static OpenAPI spec viewer           |
+
+> You can use these to view all available endpoints, input/output formats, query parameters, authentication requirements, and more — all powered by your DRF code.
+
+### 🔐 JWT Authentication in Swagger
+
+To test **authenticated routes**, click the **"Authorize"** button in Swagger and enter your token like this:
+
+```
+Bearer your-access-token
+```
+
+---
+
 ## 🧪 Running Tests
 
 ```bash

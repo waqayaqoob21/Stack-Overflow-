@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'apps.questions',
     'apps.answers',
     'apps.notifications',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
