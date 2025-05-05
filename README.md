@@ -172,7 +172,7 @@ Click the button above to instantly import and test the full API in Postman — 
 ## 📦 Deployment (Next Step)
 
 render link:
-- 🔵 https://stack-overflow-r98k.onrender.com/api/questions/
+- 🔵 https://stack-overflow-r98k.onrender.com/swagger/
 
 ---
 
